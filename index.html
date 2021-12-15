@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto APOD</title>
     <link rel="stylesheet" href="./style.css">
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="conteudoCentralizado">
     <header> 
-        <h1>Foto Astronômica do Dia</h1><br>
-        <br><p>Uma foto diferente por dia!</p><br>
-        <br><p>Escolha a data para a foto do dia</p>
-        <br><input type="date" name="calendario" id="calendario"><br> 
-        <button id="btn">Selecionar</button>
+        <h1 class="titulo">Foto Astronômica do Dia</h1><br>
+        <br><p class="texto">Uma foto diferente por dia!</p><br>
+        <br><p class="texto">Escolha a data para a foto do dia</p>
+        <br><input class="calendario" type="date" name="calendario" id="calendario"><br> 
+        <button class="btn" id="btn">Selecionar</button>
       
     </header>
-    <main>
+    <main class="corpoConteudo">
        <div class="tituloFoto">
             <h2 id="tFoto"></h2>
        </div>
@@ -44,4 +46,4 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./script.js"></script>
 </body>
-</html>
+</html>        
