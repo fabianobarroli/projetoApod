@@ -9,17 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </head>
 <body class="conteudoCentralizado">
     <header> 
         <h1 class="titulo">Foto Astronômica do Dia</h1><br>
         <br><p class="texto">Uma foto diferente por dia!</p><br>
+        <br><p class="texto">A NASA criou em 01/01/2015 o projeto APOD, <br> que consiste em divulgar para o mundo uma foto astronômica por dia,<br> acompanhado com uma pequena descrição.</p><br>
         <br><p class="texto">Escolha a data para a foto do dia</p>
         <br><input class="calendario" type="date" name="calendario" id="calendario"><br> 
         <button class="btn" id="btn">Selecionar</button>
-      
+        <br><div id="traducao" class="boxTraducao"></div> 
     </header>
     <main class="corpoConteudo">
+  
        <div class="tituloFoto">
             <h2 id="tFoto"></h2>
        </div>
@@ -45,5 +49,6 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./script.js"></script>
+    
 </body>
 </html>        

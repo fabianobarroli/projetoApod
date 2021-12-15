@@ -17,5 +17,7 @@ $('button').click( function(){
    
 })
 
-
-
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'pt', layout: google.translate.TranslateElement.InlineLayout.VERTICAL}, 'traducao');
+        }
+       
